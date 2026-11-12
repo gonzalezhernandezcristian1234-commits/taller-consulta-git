@@ -40,5 +40,7 @@ upstream
 Definicion: es el repositorio original del que se clona o se actualiza y su diferencia con origin es que origin es la copia propia del que clono, origin baja del repositorio y upstream sube al repositorio
 Ejemplo: es como encontrar un libro de recetas en una estanteria, ese libro de recetas es el "upstream" luego con ese libro yo le hago fotocopias, las fotocopias serian el origin, luego yo agregaria notas a las fotocopias y las subiria al upstream si es que me las aceptan
 
-
-
+5: la importancia de las ramas
+branches:
+Definicion: sirve para trabajar en funciones o ideas aparte, sin modificar la version principal del proyecto, es para probar, fallar, y corregir y si todo sale correcto se sube al principal. en unntrabajo indiviual es que permite concentrarse en el trabajo uno mismo sin depender de los demas, entender cada paso a fondo y corregir a mi manera. para el trabajo en equipo la ventaja es que las ideas se suman, se pueden rapartir tareas para avanzar mas rapido, se permiten mejoras desde otra perspectiva que ayudan a mejorar la calidad
+Ejemplo:es como tener un pagina web y cambiar el color de un boton, es branch se crea para probar eso y si queda bien se une con el merge, si no queda bien simplemente se descarta
