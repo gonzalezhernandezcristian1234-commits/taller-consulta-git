@@ -44,3 +44,11 @@ Ejemplo: es como encontrar un libro de recetas en una estanteria, ese libro de r
 branches:
 Definicion: sirve para trabajar en funciones o ideas aparte, sin modificar la version principal del proyecto, es para probar, fallar, y corregir y si todo sale correcto se sube al principal. en unntrabajo indiviual es que permite concentrarse en el trabajo uno mismo sin depender de los demas, entender cada paso a fondo y corregir a mi manera. para el trabajo en equipo la ventaja es que las ideas se suman, se pueden rapartir tareas para avanzar mas rapido, se permiten mejoras desde otra perspectiva que ayudan a mejorar la calidad
 Ejemplo:es como tener un pagina web y cambiar el color de un boton, es branch se crea para probar eso y si queda bien se une con el merge, si no queda bien simplemente se descarta
+
+
+6: es un modelo de trabajo con ramas en Git, se definen las ramas claras para organizar el desarrollo, las correcciones y las versiones que salen a produccion 
+main/master es la version estable la que ya funciona y se entrega
+Develop es donde se juntan las cosas que estan en construccion
+Feature son ramas temporales para cada funcion, estas se crean desde develop y cuando funciona se mezclan
+Release es una rama para preparar una version antes de salir a produccion, se corrigen detalles finales y despues se funciona con main
+Hotfix es para arreglos urgentes en produccion, sale desde main y regresa a main apenas el arreglo esta listo
